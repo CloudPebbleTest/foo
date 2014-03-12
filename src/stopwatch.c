@@ -94,8 +94,6 @@ void shift_lap_layer(PropertyAnimation** animation, Layer* layer, GRect* target,
 void lap_restored(double time);
 
 void handle_init() {
-  int *foo = 0;
-  *foo = 5;
 	window = window_create();
     window_stack_push(window, true /* Animated */);
     window_set_background_color(window, GColorBlack);

@@ -15,24 +15,6 @@
     "resources": {
         "media": [
             {
-                "characterRegex": "[:0-9]",
-                "type": "font",
-                "name": "FONT_DEJAVU_SANS_BOLD_SUBSET_30",
-                "file": "fonts/DejaVuSans-Bold.ttf"
-            },
-            {
-                "characterRegex": "[:0-9. )Nolapsyet]",
-                "type": "font",
-                "name": "FONT_DEJAVU_SANS_SUBSET_18",
-                "file": "fonts/DejaVuSans.ttf"
-            },
-            {
-                "characterRegex": "[:0-9. ]",
-                "type": "font",
-                "name": "FONT_DEJAVU_SANS_SUBSET_22",
-                "file": "fonts/DejaVuSans.ttf"
-            },
-            {
                 "type": "png",
                 "name": "IMAGE_BUTTON_LABELS",
                 "file": "images/buttons.png"
@@ -42,6 +24,24 @@
                 "type": "png",
                 "name": "IMAGE_MENU_ICON",
                 "file": "images/stopwatch.png"
+            },
+            {
+                "characterRegex": "[:0-9]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_BOLD_SUBSET_30",
+                "file": "fonts/DejaVuSans-Bold.ttf"
+            },
+            {
+                "characterRegex": "[:0-9. ]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_SUBSET_22",
+                "file": "fonts/DejaVuSans.ttf"
+            },
+            {
+                "characterRegex": "[:0-9. )Nolapsyet]",
+                "type": "font",
+                "name": "FONT_DEJAVU_SANS_SUBSET_18",
+                "file": "fonts/DejaVuSans.ttf"
             }
         ]
     }
